@@ -33,7 +33,7 @@
     });
 
     $('.whatsapp').click(function () {
-        window.open('https://api.whatsapp.com/send?phone=593979006556', '_blank');
+        window.open('https://api.whatsapp.com/send?phone=593988211303', '_blank');
         return false;
     });
 
