@@ -1,0 +1,44 @@
+/* Estilos base para todas las pantallas */
+.area1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.container1 {
+  position: relative;
+  max-width: 100%;
+  width: 90%;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+
+.elmoko {
+  margin-top: -25px;
+}
+
+.particles-js-canvas-el {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#forbiden {
+  margin-top: 20px;
+}
+
+/* Estilos específicos para tabletas y móviles */
+@media only screen and (max-width: 768px) {
+  .elmoko {
+    margin-top: 0;
+    max-width: 100%;
+  }
+
+  .text404 {
+    margin-top: 20px;
+  }
+}
